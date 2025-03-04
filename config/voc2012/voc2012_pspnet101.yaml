@@ -52,7 +52,7 @@ TEST:
   index_start: 0  # evaluation start index in list
   index_step: 0  # evaluation step index in list, 0 means to end
   test_gpu: [0]
-  model_path: exp/voc2012/pspnet101/model/train_epoch_50.pth  # evaluation model path
+  model_path: initmodel/VOC/pspnet101.pth  # evaluation model path
   save_folder: exp/voc2012/pspnet101/result/epoch_50/val/ss  # results save folder
   colors_path: data/voc2012/voc2012_colors.txt  # path of dataset colors
   names_path: data/voc2012/voc2012_names.txt  # path of dataset category names
